@@ -1,7 +1,5 @@
 # Start Here
 
-[Reading the Documentation](#reading-the-documentation)
-
 The purpose of this page is to onboard new team members to the Data Science for Managers course. The intented audience is faculty, teaching fellows, and other support staff (such as FSSs or RAs) who work on the course. 
 
 ---

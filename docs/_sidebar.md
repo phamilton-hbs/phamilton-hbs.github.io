@@ -1,14 +1,14 @@
 - **Google Drive Materials**
-	- [Folder Structure](drive/folder.md)
+	- [Folder Structure](drive/folder.md#course-folder-structure)
 	- [Assignment Sheets](drive/assignment_sheet.md#assignment-sheets)
-	- [Managing Folder Access](drive/access.md)
+	- [Managing Folder Access](drive/access.md#managing-access-to-materials)
 	- [Colab Notebooks](drive/colab.md#colab-notebooks)
-	- [Tutorials](drive/tutorials.md)
+	- [Tutorials](drive/tutorials.md#tutorials)
 - **Course Website (dsm.business)**
-	- [Getting Started](website/getting_started.md)
-	- [Editing the Site](website/book_content.md)
-	- [Publishing Book Content](website/publishing_book.md)
-	- [Managing the Site with cPanel](website/cpanel.md)
+	- [Getting Started](website/getting_started.md#getting-started)
+	- [Editing the Site](website/book_content.md#editing-the-site)
+	- [Publishing Book Content](website/publishing_book.md#publishing-book-content)
+	- [Managing the Site with cPanel](website/cpanel.md#managing-the-site-with-cpanel)
 - **Web Applications**
 	- [Working with R Shiny](apps/shiny.md)
 	- [Publishing Web Applications](apps/publishing.md)
