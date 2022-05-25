@@ -8,7 +8,7 @@
 Each class folder within the `Class Materials` directory should contain the assignment sheet for that class. This is a Google Doc that contains complete instructions for the students to prepare for class. It contains links to all the materials the students will need. The template for the assignment sheet can be found in the `DSM/Templates` directory (direct link [here](https://drive.google.com/drive/folders/116phsRHXiP0hdA39Srd94J5a3yrFZgtl?usp=sharing)). As an example, here is the assignment sheet for `Class 5 - Analysis of Experiments (Yelp)` from the Fall 2022 RC DSM course:
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\yelp_assignment.png" alt="drawing" width="700"/>
+<img src="\..\_media\yelp_assignment.png" alt="drawing" width="700"/>
 </kbd>
 
 This class includes all of the following content:
@@ -27,7 +27,7 @@ To create this assignment sheet, we start with the template stored in `DSM/Templ
 Next, within our newly created assignment sheet, we fill in the Before and During Class assignment sections, as well as the list of materials students will need to complete these steps:
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\yelp_assignment_no_links.png" alt="drawing" width="700"/>
+<img src="\..\_media\yelp_assignment_no_links.png" alt="drawing" width="700"/>
 </kbd>
 
 Finally, the last step is to add in the appropriate links for the materials in the Materials section. 

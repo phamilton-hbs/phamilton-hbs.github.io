@@ -1,5 +1,5 @@
 
-<img src="\..\pages\DSM\DSM.github.io\_media\logo.png" alt="drawing" width="400"/>
+<img src="\..\_media\logo.png" alt="drawing" width="400"/>
 
 > Official documentation for the DSM course.
 

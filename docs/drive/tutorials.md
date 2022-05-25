@@ -50,7 +50,7 @@ Once a new question is created, the dropdown bar in the top right allows you to 
 To embed the video in section three of the tutorial, the first step is to upload the video to the course Youtube channel. To do this, go to youtube.com and log in with the dsmfaculty@gmail.com account. Once you are logged in to this account, select the `Your videos` tab on the left:
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\your_videos.png" alt="drawing" width="900"/>
+<img src="\..\_media\your_videos.png" alt="drawing" width="900"/>
 </kbd>
 
 This will take you to the studio page for the DSM channel. Next, click the `CREATE` button in the top right of the window, select `Upload videos`, and upload the video file:

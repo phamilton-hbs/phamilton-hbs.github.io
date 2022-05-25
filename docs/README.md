@@ -16,7 +16,7 @@ Most faculty and staff involved in the course will only ever use the Drive folde
 To get a sense for the materials we assign to students in the course, we will go through the assignment sheet for a typical class session - the *Experimentation at Yelp* case. This class covers the analysis of experiments and introduces the students to causal inference. The assignment sheet for the Fall 2022 version of the class (link [here](https://docs.google.com/document/d/18GQJAplwDQEeq8OYavMI2LeO9IhK3UOdelyeMjTmOkw/edit?usp=sharing)) is as follows:
 
 <kbd>
-<img src="\pages\DSM\DSM.github.io\_media\yelp_assignment.png" alt="drawing" width="700"/>
+<img src="\_media\yelp_assignment.png" alt="drawing" width="700"/>
 </kbd>
 
 The prework for our classes adheres to the following progression: 

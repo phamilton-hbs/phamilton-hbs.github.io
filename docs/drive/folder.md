@@ -2,7 +2,7 @@
 
 ---
 
-<img src="\..\pages\DSM\DSM.github.io\_media\folder_structure.png" alt="drawing" width="750"/>
+<img src="\..\_media\folder_structure.png" alt="drawing" width="750"/>
 
 With such a large team of faculty, teaching fellows, and research associates working on the course, it is imperative that the Drive folder is well organized and maintained. The folder should be intuitively designed such that it is obvious where all materials are stored within the folder. 
 
@@ -15,7 +15,7 @@ The dsmfaculty@gmail.com account owns the master folder for the course called `D
 To see how course folders are organized, here are the contents of the `RC DSM (Fall 2022)` folder:
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\folder.png" alt="drawing" width="500"/>
+<img src="\..\_media\folder.png" alt="drawing" width="500"/>
 </kbd>
 
 As you can see, there are four primary subfolders: 
@@ -27,13 +27,13 @@ As you can see, there are four primary subfolders:
 The majority of the content resides in `Class Materials`, which contains a subfolder for each of the fourteen class sessions (plus the pre-course bootcamp):
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\class_materials.png" alt="drawing" width="500"/>
+<img src="\..\_media\class_materials.png" alt="drawing" width="500"/>
 </kbd>
 
 Each one of these class folders contains all the necessary materials (documents, data, code notebooks, etc.) for the relevant class session. Let's look into one of these folders, for example `Class Materials/Class 3 - Summary Statistics & Visualization II (Lexoo)` (link [here](https://drive.google.com/drive/folders/10ubhVgj13FVumKkdIQIsQwY7Lr3QRQF6?usp=sharing)). 
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\lexoo.png" alt="drawing" width="500"/>
+<img src="\..\_media\lexoo.png" alt="drawing" width="500"/>
 </kbd>
 
 This contains the following:

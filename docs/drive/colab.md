@@ -125,7 +125,7 @@ This section contains miscellaneous tips and tricks for working with Colab noteb
 Most packages are *not* pre-installed on the virtual machines that run Colab notebooks. Therefore, in each working session one needs to install and load any packages used throughout the notebook, which can sometimes take several minutes. Notably, the `tidyverse` and `ggplot2` packages are pre-installed, so these packages can simply be loaded. We always install and load all required packages at the top of each notebook. Additionally, we typically begin each notebook with a reminder for the students to make a copy of the notebook in their personal Drive account, as well as a reminder to install and load all necessary packages. For example, here is the header of a typical notebook:
 
 <kbd>
-<img src="\..\pages\DSM\DSM.github.io\_media\notebook_head.png" alt="drawing">
+<img src="\..\_media\notebook_head.png" alt="drawing">
 </kbd>
 
 **Hiding Code Cells**
