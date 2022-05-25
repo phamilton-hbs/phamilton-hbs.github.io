@@ -99,11 +99,11 @@ Now a student working through the notebook can read in the data using the follow
 
 **Method 2**
 
-The second method is to host the data file on a website, and read it in directly through a URL. Below is an example from the `Class 4: Videos.ipynb` notebook in the archived folder from `DSM I (Fall 2021, EC)`. A subsequent section of the documentation (ADD LINK) describes how to host a data file on the dsm.business site.
+The second method is to host the data file on a website, and read it in directly through a URL. Below is an example from the `Class 4: Videos.ipynb` notebook in the archived folder from `DSM I (Fall 2021, EC)`. A subsequent section of the documentation ([Hosting Files](../website/cpanel.md#hosting-files)) describes how to host a data file on the dsm.business site.
 
-<kbd>
-<img src="../_media/read_data_url.gif" alt="drawing" width="600"/>
-</kbd>
+<video style="padding:1px;border:1px solid black;" width="640" height="380" controls>
+  <source src="https://i.imgur.com/XQLwOB6.mp4" type="video/mp4">
+</video>
 
 **Method 3** 
 

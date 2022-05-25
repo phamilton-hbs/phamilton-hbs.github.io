@@ -10,6 +10,5 @@
 	- [Publishing Book Content](website/publishing_book.md#publishing-book-content)
 	- [Managing the Site with cPanel](website/cpanel.md#managing-the-site-with-cpanel)
 - **Web Applications**
-	- [Working with R Shiny](apps/shiny.md)
-	- [Publishing Web Applications](apps/publishing.md)
-	- [Managing Web Applications](apps/managing_apps.md)
+	- [R Shiny Applications](apps/shiny.md#learning-r-shiny)
+	- [Bootcamp Tutorials](apps/bootcamp_tutorials.md#bootcamp-tutorials)

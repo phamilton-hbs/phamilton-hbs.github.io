@@ -45,7 +45,7 @@ Finally, the last step is to add in the appropriate links for the materials in t
   <source src="https://i.imgur.com/CS3TnbW.mp4" type="video/mp4">
 </video>
 
-+ The final file is the Colab notebook the students work through during class, which is saved in the `notebooks` folder (`Class 5: Experimentation at Yelp.ipynb`). For in-class notebooks we do not directly provide a link in the assignment sheet, but instead distribute them using a re-direct link through the course website (in this case, `dsm.business/colab/class5`). This process is described in the section [ADD LINK]. 
++ The final file is the Colab notebook the students work through during class, which is saved in the `notebooks` folder (`Class 5: Experimentation at Yelp.ipynb`). For in-class notebooks we do not directly provide a link in the assignment sheet, but instead distribute them using a re-direct link through the course website (in this case, `dsm.business/colab/class5`). This process is described in the section [Redirect Links](../website/cpanel.md#redirect-links). 
 
 
 ## Releasing the Notebooks

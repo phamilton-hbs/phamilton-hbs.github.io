@@ -1,6 +1,7 @@
 # Managing the Site with cPanel
 
-[Reading the Documentation](#reading-the-documentation)
+[Hosting Files](#hosting-files)
+[Redirect Links](#redirect-links)
 
 The dsm.business website is managed through a web hosting service called cPanel. This section describes how to access and use this tool. 
 
