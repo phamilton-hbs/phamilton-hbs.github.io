@@ -9,6 +9,7 @@
 	- [Editing the Site](website/book_content.md#editing-the-site)
 	- [Publishing Book Content](website/publishing_book.md#publishing-book-content)
 	- [Managing the Site with cPanel](website/cpanel.md#managing-the-site-with-cpanel)
+	- [Bootcamp Quizzes](website/quizzes#bootcamp-quizzes)
 - **Web Applications**
 	- [R Shiny Applications](apps/shiny.md#learning-r-shiny)
 	- [Bootcamp Tutorials](apps/bootcamp_tutorials.md#bootcamp-tutorials)

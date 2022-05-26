@@ -9,6 +9,7 @@ With such a large team of faculty, teaching fellows, and research associates wor
 The dsmfaculty@gmail.com account owns the master folder for the course called `DSM` (direct link [here](https://drive.google.com/drive/folders/1cBOCc2-X58ySGGwkP85ArtoCfRuiAPar?usp=sharing)). You may or may not have access to this folder, depending on your role in the course. This folder contains the following sub-folders:
 
 + `!Archived` - A folder with archived course folders from previous iterations of the course. You can peruse these folders to see how we have organized materials in the past.
++ `Bootcamp Quizzes` - A folder with the Google Polls that are used to administer the three quizzes in the R bootcamp on dsm.business.  
 + `Templates` - Template files for all of the materials we use in the course, such as Colab notebooks, Google Polls (for the tutorials), and assignment sheets.
 + Current course folders (e.g. `RC DSM (Fall 2022)`) - These folders are used to manage the Drive materials for any current iterations of the course. When creating a folder for a new iteration of the course, follow the naming convention used in previous semesters.
 
