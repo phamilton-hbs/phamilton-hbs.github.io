@@ -12,19 +12,19 @@ All coding in the course is done within Colab notebooks. These are browser-based
 
 ## Creating New Notebooks
 
-Because the course is taught in R, all of our notebooks need to use the R kernel. However, Google does not officially support the R kernel for Colab; instead by default all notebooks are created with the Python kernel. If you follow the official process for creating a notebook by clicking `New` in Drive and selecting `Google Colaboratory` (see GIF below), you will only be able to create notebooks with the Python kernel. Therefore, we have developed a work around to create new R notebooks.
+Because the course is taught in R, all of our notebooks need to use the R kernel. However, Google does not officially support the R kernel for Colab; instead by default all notebooks are created with the Python kernel. If you follow the official process for creating a notebook by clicking `New` in Drive and selecting `Google Colaboratory` (see GIF below), you will only be able to create notebooks with the Python kernel. 
 
 <video style="padding:1px;border:1px solid black;" width="640" height="480" controls>
   <source src="https://i.imgur.com/SYIgbfy.mp4" type="video/mp4">
 </video>
 
-To create a new R notebook, you must start by making a copy of the `Notebook Template.ipynb` file from `DSM/Templates` and then move the copy to your destination folder. This copy will inheret the R kernel from the template.
+Therefore, we have developed a work around to create new R notebooks. To create a new R notebook, you must make a copy of the `Notebook Template.ipynb` file from `DSM/Templates` and then move the copy to your destination folder. This copy will inherit the R kernel from the template.
 
 ## Working Process for Notebooks
 
 There should be two versions of every notebook created for the course - a "starter" version which is distributed to the students, and a "finisher" version which is only accessible by the teaching team. These two notebooks should be identical in content and structure. However, the finisher notebook should contain the complete code and written answers to all exercises, while the starter notebook should have much of the code and written answers removed for the students to fill in themselves.
 
-Maintaining two versions of the same file is bad practice. For example, imagine we created a starter and finisher notebook in parallel, and then recieved feedback and needed to make significant changes. This would require propogating the same set of changes through both versions of the file. Not only is this inefficient, but if we make a mistake and miss a change in one of the two files, they will very quickly become out-of-sync. Therefore, when developing notebooks for the course it is best practice to *only* work on the finisher notebook. While the content of the notebook is still in progress, the starter version should be kept blank. Only once the finisher notebook is finalized and approved by the team should the content be copied over to the starter notebook. 
+Maintaining two versions of the same file is bad practice. For example, imagine we created a starter and finisher notebook in parallel, and then received feedback and needed to make significant changes. This would require propagating the same set of changes through both versions of the file. Not only is this inefficient, but if we make a mistake and miss a change in one of the two files, they will very quickly become out-of-sync. Therefore, when developing notebooks for the course it is best practice to *only* work on the finisher notebook. While the content of the notebook is still in progress, the starter version should be kept blank. Only once the finisher notebook is finalized and approved by the team should the content be copied over to the starter notebook. 
 
 For example, imagine we were creating the prework notebook for the Yelp case. We begin by copying the notebook template from `DSM/Templates` and moving it to the `notebooks` folder within `Class 5 - Analysis of Experiments (Yelp)`. We will copy the template twice, once for the finisher notebook and once for the starter notebook. 
 
@@ -47,7 +47,7 @@ As we develop the notebook we should *only* work out of the finisher file, and t
 Next, to create the starter:
 1. Paste those cells into the blank starter notebook by pressing `Ctrl` + `v`;
 2. At the top of the starter notebook, click `Edit` -> `Clear all outputs`; and
-3. Walk through the starter notebook and remove code or written answers that we want the students to fill in themsevles. Empty code cells should contain `# ADD COMMAND(S) HERE`, and empty text cells should contain `[ADD ANSWER HERE]`.
+3. Walk through the starter notebook and remove code or written answers that we want the students to fill in themselves. Empty code cells should contain `# ADD COMMAND(S) HERE`, and empty text cells should contain `[ADD ANSWER HERE]`.
 
 <video style="padding:1px;border:1px solid black;" width="640" height="480" controls>
   <source src="https://i.imgur.com/8NPAtJJ.mp4" type="video/mp4">
@@ -90,8 +90,8 @@ To set up the file so that it can be read in this way, we first need to host the
 
 Now a student working through the notebook can read in the data using the following steps:
 1. Click the link to the file on Drive and download it to their machine;
-2. Open the `Files` pane in the notebook and clicking `Upload to session storage`; and
-3. Running the `read_csv()` command to read the data from the file into R.
+2. Open the `Files` pane in the notebook and click `Upload to session storage`; and
+3. Run the `read_csv()` command to read the data from the file into R.
 
 <video style="padding:1px;border:1px solid black;" width="640" height="380" controls>
   <source src="https://i.imgur.com/gOvMa4E.mp4" type="video/mp4">

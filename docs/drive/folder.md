@@ -6,7 +6,7 @@
 
 With such a large team of faculty, teaching fellows, and research associates working on the course, it is imperative that the Drive folder is well organized and maintained. The folder should be intuitively designed such that it is obvious where all materials are stored within the folder. 
 
-The dsmfaculty@gmail.com account owns the master folder for the course called `DSM` (direct link [here](https://drive.google.com/drive/folders/1cBOCc2-X58ySGGwkP85ArtoCfRuiAPar?usp=sharing)). You may or may not have access to this folder, depending on your role in the course. This folder contains the following subfolders:
+The dsmfaculty@gmail.com account owns the master folder for the course called `DSM` (direct link [here](https://drive.google.com/drive/folders/1cBOCc2-X58ySGGwkP85ArtoCfRuiAPar?usp=sharing)). You may or may not have access to this folder, depending on your role in the course. This folder contains the following sub-folders:
 
 + `!Archived` - A folder with archived course folders from previous iterations of the course. You can peruse these folders to see how we have organized materials in the past.
 + `Templates` - Template files for all of the materials we use in the course, such as Colab notebooks, Google Polls (for the tutorials), and assignment sheets.
@@ -18,13 +18,13 @@ To see how course folders are organized, here are the contents of the `RC DSM (F
 <img src="\..\_media\folder.png" alt="drawing" width="500"/>
 </kbd>
 
-As you can see, there are four primary subfolders: 
+As you can see, there are four primary sub-folders: 
 + `!Temp`, which is used to store and share temporary documents to prevent the rest of the course folder from getting cluttered; 
 + `Admin`, which stores administrative documents such as the syllabus, course overview note, course calendar, etc.; 
-+ `Class Materials`, which contains subfolders for each class in the course; and 
++ `Class Materials`, which contains sub-folders for each class in the course; and 
 + `Tutorials`, which contains all of the tutorial exercises that the students prepare outside of class as part of the course prework. 
 
-The majority of the content resides in `Class Materials`, which contains a subfolder for each of the fourteen class sessions (plus the pre-course bootcamp):
+The majority of the content resides in `Class Materials`, which contains a sub-folder for each of the fourteen class sessions (plus the pre-course bootcamp):
 
 <kbd>
 <img src="\..\_media\class_materials.png" alt="drawing" width="500"/>

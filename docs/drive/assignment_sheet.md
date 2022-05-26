@@ -38,7 +38,7 @@ Finally, the last step is to add in the appropriate links for the materials in t
   <source src="https://i.imgur.com/YaPKmgf.mp4" type="video/mp4">
 </video>
 
-+ The link to the reading can be retrieved fron the [dsm.business](https://dsm.business/) site. Alternatively, the reading can be provided as a PDF published by case services.
++ The link to the reading can be retrieved from the [dsm.business](https://dsm.business/) site. Alternatively, the reading can be provided as a PDF published by case services.
 + The tutorial for the class is stored in the `RC DSM (Fall 2022)/Tutorials/quizzes` folder. To retrieve the link, navigate to this folder, then right click on the Google Poll file, select `Get link`, and click `Copy link`  (see GIF below).
 
 <video style="padding:1px;border:1px solid black;" width="640" height="480" controls>
@@ -50,7 +50,7 @@ Finally, the last step is to add in the appropriate links for the materials in t
 
 ## Releasing the Notebooks
 
-Although the links to the Colab notebooks are now in the assignment sheet, these notebooks have not yet been shared with the students. This means that if the students were to click the links at this stage, they would recieve a "permission denied" message. To provide students with access to a notebook (or any other file type on Drive), the file simply needs to be shared with (`dsm-students@googlegroups.com`). This is a Google Group that contains all students in the course (described further in the next section). To provide access to a file:
+Although the links to the Colab notebooks are now in the assignment sheet, these notebooks have not yet been shared with the students. This means that if the students were to click the links at this stage, they would receive a "permission denied" message. To provide students with access to a notebook (or any other file type on Drive), the file simply needs to be shared with (`dsm-students@googlegroups.com`). This is a Google Group that contains all students in the course (described further in the next section). To provide access to a file:
 + Right click the file and select `Share`.
 + Type the address of the gmail account or Google Group into the `Add people and groups` bar.
 + Set the appropriate level of access (`Viewer`, `Commenter`, or `Editor`); in this case we want to share with view access.

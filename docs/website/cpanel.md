@@ -23,7 +23,7 @@ Next, click into the `public_html` directory:
 <img src="\..\_media\public_html.png" alt="drawing" width="900"/>
 </kbd>
 
-Now choose the subdirectory where you want to host the file. If we were uploading a data set, we would choose the `data` directory. If we were uploading an image, we would choose `_images`, etc. For now we'll upload a data file, so we will choose the `data` folder:
+Now choose the sub-directory where you want to host the file. If we were uploading a data set, we would choose the `data` directory. If we were uploading an image, we would choose `_images`, etc. For now we'll upload a data file, so we will choose the `data` folder:
 
 <kbd>
 <img src="\..\_media\data_folder.png" alt="drawing" width="900"/>

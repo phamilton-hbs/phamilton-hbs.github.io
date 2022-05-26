@@ -11,7 +11,7 @@ The [official Jupyter site](https://jupyterbook.org/en/stable/intro.html) has ex
 
 ## Book Structure
 
-The primary structure of the book is defined in the `_toc.yml` file, which is stored in the outer `dsm_website` directory. From a high level the book is organized into modules (`GETTING STARTED`, `R BOOTCAMP`, `EXPLORATORY DATA ANALYSIS`, etc.), which are themselves divided into multiple chapters. The chapters within the `GETTING STARTED` and `R BOOTCAMP` modules are unnumbered, while the remaining chapters are numbered. 
+The primary structure of the book is defined in the `_toc.yml` file, which is stored in the outer `dsm_website` directory. From a high level the book is organized into modules (`R BOOTCAMP`, `EXPLORATORY DATA ANALYSIS`, etc.), which are themselves divided into multiple chapters. The chapters within the `R BOOTCAMP` module are unnumbered, while the remaining chapters are numbered. 
 
 If you open the `_toc.yml` file, you will see that it starts with the following two lines:
 
@@ -22,19 +22,39 @@ root: intro
 
 The first line indicates that the materials should be formatted as a Jupyter Book, and the second line indicates the "home page" for the book. If you look into the outer `dsm_website` directory you should see a markdown file titled `intro.md`; this serves as the landing page for the website. 
 
-The remainder of the book is organized under the `parts:` heading of the toc file. The book modules are defined with `-caption:`, and the chapters within each module are listed under `chapters:`. For example, take the `GETTING STARTED` module:
+The remainder of the book is organized under the `parts:` heading of the toc file. The book modules are defined with `-caption:`, and the chapters within each module are listed under `chapters:`. For example, take the `R BOOTCAMP` module:
 
 ```
 format: jb-book
 root: intro
 parts:
-  - caption: Getting Started
+  - caption: R Bootcamp
     chapters:
-    - file: 00_getting_started/access
-    - file: 00_getting_started/platforms
+    - file: 00_bootcamp/01_rbasics/rbasics
+      sections:
+      - file: 00_bootcamp/01_rbasics/r_as_a_calculator
+      - file: 00_bootcamp/01_rbasics/assignment
+      - file: 00_bootcamp/01_rbasics/data_types
+      - file: 00_bootcamp/01_rbasics/rbasics_quiz1
+      - file: 00_bootcamp/01_rbasics/atomic_vectors
+      - file: 00_bootcamp/01_rbasics/functions
+      - file: 00_bootcamp/01_rbasics/rbasics_quiz2
+    - file: 00_bootcamp/02_dataframes/dataframes
+      sections:
+      - file: 00_bootcamp/02_dataframes/r_packages
+      - file: 00_bootcamp/02_dataframes/reading_in_data
+      - file: 00_bootcamp/02_dataframes/data_frame_basics
+      - file: 00_bootcamp/02_dataframes/df_basics_exercise
+      - file: 00_bootcamp/02_dataframes/fixing_variable_types
+      - file: 00_bootcamp/02_dataframes/sorting_data
+      - file: 00_bootcamp/02_dataframes/filtering_rows
+      - file: 00_bootcamp/02_dataframes/selecting_columns
+      - file: 00_bootcamp/02_dataframes/df_manipulation_exercise
+      - file: 00_bootcamp/02_dataframes/df_manipulation_quiz
+    - file: 00_bootcamp/bootcamp_finish_message
 ```
 
-This module contains two chapters: `Access to Materials` and `Coding Platforms`. Each of these chapters are defined by a single markdown file (`access.md` and `platforms.md`, respectively) which are stored in the `00_getting_started` directory. 
+This module contains three chapters: `R Basics`, `Data Frames`, and `Welcome to the Course!`. Each of these chapters are introduced by a single markdown file (`00_bootcamp/01_rbasics/rbasics.md`, `00_bootcamp/02_dataframes/dataframes.md`, and `00_bootcamp/bootcamp_finish_message.md`, respectively). The first two chapters have sub-sections that are defined by individual markdown files; these are listed under `sections:` below each chapter introduction file.  
 
 Now consider the `EXPLORATORY DATA ANALYSIS` module, which is defined in the toc file as follows:
 
@@ -56,9 +76,9 @@ Now consider the `EXPLORATORY DATA ANALYSIS` module, which is defined in the toc
           - file: 02_tidy/summarise
 ```
 
-Note that because the chapters within this module are numbered, we set `numbered: True` just under the `-caption` definition of the module name. Additionally, whereas each chapter in `GETTING STARTED` was defined by a single markdown file, the chapters within `EXPLORATORY DATA ANALYSIS` (`Exploring Data` and `Data Wrangling with the tidyverse`) are defined by multiple sub-sections that each consist of a separate .md file. In this case, we use one markdown file to define the introductory page of the chapter (*e.g.*, `01_eda/what_is_data.md`). Then, the sub-sections of the chapter are defined as `sections:` below the chapter intro page. For example, `01_eda/what_is_data.md`, `01_eda/summary_stats.md`, etc. are all numbered sub-sections under the chapter `1. Exploring Data`.
+Note that because the chapters within this module are numbered, we set `numbered: True` just under the `-caption` definition of the module name.
 
-When the book is built, Jupyter Book uses the structure defined in the `_toc.yml` file to compile all of the individual markdown (`.md`) files in the proper configuration.
+When the book is built, Jupyter Book uses the structure defined in the `_toc.yml` file to compile all of the individual markdown (`.md`) files into the proper configuration.
 
 ## Writing Book Content
 
@@ -103,9 +123,9 @@ employees$Degree <- parse_factor(employees$Degree, levels = degreeLevels, ordere
 
 The purpose of this section is to load and process the `employees` data that will be used later in the page. We want to do this behind the scenes, so we do not want this code or any of its outputs to be present in the final rendered markdown. The directive `````` ```{code-cell} `````` indicates that the chunk contains code that needs to be executed (and not text to be formatted as markdown). The first line of the chunk, `:tags: [remove-cell]`, indicates that both the code and the output of the code should *not* be displayed in the rendered markdown file. There are several options for this setting (see [here](https://jupyterbook.org/interactive/hiding.html?highlight=tags#hide-code-cell-content) for additional info):
 
-+ `:tags: [remove-cell]` - do not display the code or its outputs in the rendered markdown file
-+ `:tags: [hide-input]` - do not display the code in the rendered markdown file, but *do* display any output that the code produces
-+ `:tags: [hide-output]` - do not display any output that the code produces in the rendered markdown file, but *do* display the code itself
++ `:tags: [remove-cell]` - do not display the code or its outputs in the rendered markdown file;
++ `:tags: [hide-input]` - do not display the code in the rendered markdown file, but *do* display any output that the code produces; and
++ `:tags: [hide-output]` - do not display any output that the code produces in the rendered markdown file, but *do* display the code itself.
 
 If you would like the rendered markdown to display both the code and its outputs, simply do not include this tag setting in your code chunk. For example, in the `Basic Diagnostic Plots` section of our markdown file, we have the following:
 
@@ -144,5 +164,13 @@ This is rendered as the `Syntax` block [here](https://dsm.business/05_linear_reg
 
 ### Sections Not in Module Note
 
-Certain sections of the Jupyter book are not covered in the officially published module notes. Within the book, these sections are marked with the symbol (§). In markdown, this symbol is represented by `(&sect;)`. For an example, see the file `02_tidy/eda_tidyverse.md`.
+Certain sections of the Jupyter book are not covered in the course, nor are they present in the officially published module notes. Within the book, these sections are marked with the symbol (§). In markdown, this symbol is represented by `(&sect;)`. Additionally, the top of these sections contains the following content block:
+
+``````
+:::{note}
+This section is optional, and will not be covered in the DSM course.
+:::
+``````
+
+For an example, see the file `02_tidy/ggplot.md`, which you can see rendered [here](https://dsm.business/02_tidy/ggplot.html#visualization-with-ggplot2).
 

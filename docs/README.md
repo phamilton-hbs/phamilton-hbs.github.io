@@ -1,17 +1,17 @@
 # Start Here
 
-The purpose of this page is to onboard new team members to the Data Science for Managers course. The intented audience is faculty, teaching fellows, and other support staff (such as FSSs or RAs) who work on the course. 
+The purpose of this page is to onboard new team members to the Data Science for Managers course. The intended audience is faculty, teaching fellows, and other support staff (such as FSSs or RAs) who work on the course. 
 
 ---
 
-The materials for DSM are primarily managed on Google Drive, so you will need a Google account for the course. To get access to our Drive materials, provide your gmail address to the current RA for the course. They will give you access by adding your account to the course Google Group. Once you have access, you will be able to access the course folder on Drive (`DSM`) [here](https://drive.google.com/drive/folders/1cBOCc2-X58ySGGwkP85ArtoCfRuiAPar?usp=sharing). Although most of the materials are managed on Drive, there are several other platforms that we rely on throughout the course:
+The materials for DSM are primarily managed on Google Drive, so you will need a Google account. To get access to our Drive materials, provide your gmail address to the current RA for the course. They will give you access by adding your account to the DSM Google Group, after which you will be able to access the course folder on Drive (`DSM`) [here](https://drive.google.com/drive/folders/1cBOCc2-X58ySGGwkP85ArtoCfRuiAPar?usp=sharing). Although most of the materials are managed on Drive, there are several other platforms that we rely on throughout the course:
 + Canvas is used to distribute assignment sheets to students and manage the course calendar;
 + The course website ([dsm.business](https://dsm.business/)) is a browser-based textbook that contains assigned readings for class;
-+ The [DSM Github organization](https://code.harvard.edu/DSM) is used to manage our web applications, the back end of the course website, etc.
++ The [DSM GitHub organization](https://code.harvard.edu/DSM) is used to manage our web applications, the back end of the course website, etc.
 
-Most faculty and staff involved in the course will only ever use the Drive folder and Canvas. The website and Github repository are primarily maintained by the course RA. 
+Most faculty and staff involved in the course will only ever use the Drive folder and Canvas. The website and GitHub repository are primarily maintained by the course RA. 
 
-To get a sense for the materials we assign to students in the course, we will go through the assignment sheet for a typical class session - the *Experimentation at Yelp* case. This class covers the analysis of experiments and introduces the students to causal inference. The assignment sheet for the Fall 2022 version of the class (link [here](https://docs.google.com/document/d/18GQJAplwDQEeq8OYavMI2LeO9IhK3UOdelyeMjTmOkw/edit?usp=sharing)) is as follows:
+To get a sense for the different types of materials we assign to students, we will go through the assignment sheet for a typical class session - the *Experimentation at Yelp* case. This class covers the analysis of experiments and introduces the students to causal inference. The assignment sheet for the Fall 2022 version of the class (link [here](https://docs.google.com/document/d/18GQJAplwDQEeq8OYavMI2LeO9IhK3UOdelyeMjTmOkw/edit?usp=sharing)) is as follows:
 
 <kbd>
 <img src="\_media\yelp_assignment.png" alt="drawing" width="700"/>
@@ -19,7 +19,7 @@ To get a sense for the materials we assign to students in the course, we will go
 
 The prework for our classes adheres to the following progression: 
 
-1. First, the students read about a concept and see how it is applied in R on the [dsm.business](https://dsm.business/) site (which is identical to the published module notes); 
+1. First, the students read about a concept and see how it is applied in R on the [dsm.business](https://dsm.business/) site (or alternatively they read the published module notes, which are identical to dsm.business); 
 2. Next, a video tutorial guides the students through a practice problem in R; and 
 3. Finally, they work through a problem in R on their own. This last step is either analyzing the data for a case, or working through an additional practice problem within the tutorial. 
 

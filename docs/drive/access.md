@@ -14,7 +14,7 @@ These Google Groups should be managed by the owner of the `dsmfaculty@gmail.com`
 
 ## Folder Access for Faculty and TFs
 
-The `DSM Faculty` and `DSM TFs` groups are already shared with edit and view access (respectively) to the root `DSM` folder. Any files or folders that are created within this directory automatically inheret its permissions. This means that when a new course folder is created within `DSM` for an upcoming semester of the course, the `DSM Faculty` and `DSM TFs` groups will automatically have the appropriate level of access to the folder. 
+The `DSM Faculty` and `DSM TFs` groups are already shared with edit and view access (respectively) to the root `DSM` folder. Any files or folders that are created within this directory automatically inherit its permissions. This means that when a new course folder is created within `DSM` for an upcoming semester of the course, the `DSM Faculty` and `DSM TFs` groups will automatically have the appropriate level of access to the folder. 
 
 When a new faculty (or TF) joins the course, add them to the appropriate Google Group by following the steps below. This will automatically grant them access to all the course materials on Drive.
 1. On the home page for the group, click `Members` (under the `People` tab on the left). 
@@ -31,9 +31,16 @@ Here is an GIF showing these steps:
 
 ## Access for Students
 
-Student accounts do not need to be manually added to the `DSM Students` group. Instead, as prework for the first class students are instructed to navigate to the `Access to Materials` tab under `GETTING STARTED` on [dsm.business](https://dsm.business/). This will prompt them for a username and password, which are given below. After signing in with these credentials, the students will see a page that gives them a link where they can sign themselves up for the `DSM Students` group. 
-+ *Username*: dsm_student
-+ *Password*: ILoveDSM
+Student accounts do not need to be manually added to the `DSM Students` group. Instead, the assignment sheet for the first class should instruct students to sign up for the course Google Group themselves. For example, in the Fall 2022 RC iteration of the course, the assignment sheet for Class 0 - R Bootcamp (direct link [here](https://docs.google.com/document/d/13lUz-DBs6WOapCtGQBM2aKbTS4oDDgSrUtFdS5JXNhk/edit?usp=sharing)) contains the following instruction:
+
+> You will need a Google account for the course. You may use a pre-existing one, or create a new one for the course. Once you have an account, join the course Google Group by opening the link below and clicking “Join group”. 
+https://groups.google.com/g/dsm-students
+
+This link will lead students to the public home page for the `DSM Students` group, which they can join by clicking `Join group`:
+
+<kbd>
+<img src="\..\_media\join_group.png" alt="drawing">
+</kbd>
 
 At the start of the semester, the `DSM Students` group should not be shared with any of the materials on Drive. Then, at the start of each week, the materials linked in the assignment sheet should be shared *with view access* to `dsm-students@googlegroups.com`. Once those materials are shared with that address, the links in the assignment sheet will become active to the students. See the previous section for instructions on how to share materials with view access to the student group. 
 
