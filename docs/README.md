@@ -17,7 +17,7 @@ To get a sense for the different types of materials we assign to students, we wi
 <img src="\_media\yelp_assignment.png" alt="drawing" width="700"/>
 </kbd>
 
-The prework for our classes adheres to the following progression: 
+The pre-work for our classes adheres to the following progression: 
 
 1. First, the students read about a concept and see how it is applied in R on the [dsm.business](https://dsm.business/) site (or alternatively they read the published module notes, which are identical to dsm.business); 
 2. Next, a video tutorial guides the students through a practice problem in R; and 
